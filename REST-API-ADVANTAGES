@@ -1,0 +1,14 @@
+First of all, I apologize in choosing github as the source of writing technical and descriptive topic
+
+REST API : REST stands for Representational State Transfer. It is very simple and its over HTTP which makes it more simpler. 
+(More about REST Apis can be found on http://rest.elkstein.org/ and http://www.restapitutorial.com/lessons/whatisrest.html)
+
+This article is more focussed on the application advantages of using the REST API:
+1. I was designing the Mobile App in iOS for Broadcasting emergency alerts targetting university students. It required the server and 
+the database. Since I was working on a small scale project, I could not afford to invest time in setting up the server, 
+installing the db and using the SQL queries to fetch the data from the DB. This time was saved with the help of REST APIs.
+There are very powerful database servers available online( example - https://cloud-us.clusterpoint.com). I used these database servers 
+to eliminate the need of setting the server and installing the DB. Now what about fetching this data or adding the data
+or deleting this data. At this point of time, REST can play a very important role by exposing APIs over HTTP to fetch, insert, delete 
+and update the data in the database. So all I had to do was just fire a HTTP request with appropriate method over the url and I was able 
+to perform all the database operations (Refer : https://www.clusterpoint.com/docs/?page=13-Retrieve&language=REST&version=3).
